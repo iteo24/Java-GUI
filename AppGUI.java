@@ -31,9 +31,10 @@ public class AppGUI extends javax.swing.JFrame {
         jPanel1.setPreferredSize(new java.awt.Dimension(150, 150));
 
         jLabel1.setText(hold);
-        jLabel1.setFont(new Font("Sitka Text", 2, 12));
+        jLabel1.setFont(new Font("Sitka Text", 2, 11));
         jLabel1.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel1.setPreferredSize(new java.awt.Dimension(135, 135));
+        jLabel1.setPreferredSize(new java.awt.Dimension(10, 10));
+        
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);
@@ -41,7 +42,7 @@ public class AppGUI extends javax.swing.JFrame {
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel1Layout.createSequentialGroup()
                 .addGap(56, 56, 56)
-                .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 37, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 135, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap(57, Short.MAX_VALUE))
         );
         jPanel1Layout.setVerticalGroup(
