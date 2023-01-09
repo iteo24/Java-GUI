@@ -7,11 +7,9 @@
     static String hold_quote = "This is quote ";
     static int hold_num = 1;
 
-    
 
+    public static void creatArrayList(){
 
-    public static void main(String[] args){
-        
         quotes.add("This is quote 1");
         quotes.add("Goals transform a random walk into a chase");
         quotes.add("It is necessary to fall in love");
@@ -22,5 +20,9 @@
         quotes.add("Together we can change the world.");
         quotes.add("Self-control is everything.");
         quotes.add("Whitworth is great.");
+
+    }
+    public static String getQuote(int i){
+        return quotes.get(i);
     }
  }
